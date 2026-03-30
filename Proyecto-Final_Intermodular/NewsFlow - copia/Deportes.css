@@ -1,0 +1,216 @@
+#principalpadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding: auto;
+}
+
+#principalpadre div h1{
+    word-spacing: 100px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #fff;
+    padding: auto;
+}
+
+#subprinpa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeraimg  img {
+width: 320px;
+height: 250px;
+}
+
+
+#logoface img{
+    width: 45px;
+    height: 45px;
+}
+
+#logoinsta img{
+    width: 55px;
+    height: 55px;
+}
+
+#logox img {
+width: 35px;
+height: 35px;
+}
+
+/* MENU */
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px;
+    background-color: #c2c2c2b2;
+}
+
+#menu div button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #c2c2c2b2;
+    font-size: 20px;
+    padding: 0;
+    transition: font-size 0.3s ease;
+}
+
+#menu div button a{
+    background: none;
+    color: #fff;
+    
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    transition: font-size 0.3s ease;
+}
+
+#menu div button:hover{
+    background-color: #fff;
+    width: 110%;
+    height: 110%;
+    font-size: 40px;
+    
+}
+
+#menu div button a:hover {
+    color: #000000;
+    
+    
+}
+
+/* Primeras noticias de Deportes */
+
+#carrusel-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.carrusel::-webkit-scrollbar {
+    display: none;
+}
+
+#card {
+    min-width: 180px;
+    max-width: 180px;
+    height: 140px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#card img {
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+}
+
+#atleta{
+    width: 300px;
+    height: 200px;
+}
+
+#categoria {
+    display: inline-block;
+    background: #e60000;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#card h3, .card p {
+    margin: 10px;
+}
+
+.flecha {
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* CARTELITO */
+
+#titulacion{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: greenyellow;
+}
+
+
+
+/* Noticias post-carrusel */
+
+#pidre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#trump {
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 10px;
+
+}
+
+#trump img{
+width: 750px;
+height: 500px;
+}
+
+#alado{
+    display: flex;
+    flex-direction: column;
+}
+
+#alotrump{
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+#alotrump img{
+    width: 525px;
+    height: 250px;
+    
+}
+
+/*Ultimas noticias de la pagina de deportes*/
+
+#deporte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
